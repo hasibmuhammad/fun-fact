@@ -1,0 +1,27 @@
+body {
+  background-color: lightcyan;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.image {
+  width: 150px;
+  cursor: pointer;
+  mix-blend-mode: darken;
+}
+
+.center {
+  text-align: center;
+}
